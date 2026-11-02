@@ -13,7 +13,7 @@
 如果想古法手动安装，首先安装 [uv](https://docs.astral.sh/uv/) 和 [npm](https://nodejs.org/zh-cn/download)，然后通过 SKILL 方式安装：
 
 ```bash
-npx skills add windlandneko/yanhekit -g -s '*'
+npx skills add bitoolkit/yanhekit -g -s '*'
 ```
 
 或把 `skills/` 下的各个文件夹复制到所用 Harness 的技能目录：Claude Code 是 `~/.claude/skills`，Codex 是 `~/.agents/skills`，DeepSeek Harness 是 `~/.dsh/skills`。

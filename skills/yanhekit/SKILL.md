@@ -130,7 +130,7 @@ Prioritize what is easy to miss: attendance, assignments and deadlines, exam hin
 
 ## Setup
 
-To install Yanhekit from its repository, fetch https://github.com/windlandneko/yanhekit with `git clone --depth 1` into a temporary folder, or as https://github.com/windlandneko/yanhekit/archive/refs/heads/main.zip without git. Copy every folder under its `skills/`, names unchanged and replacing older copies, into the user skills directory of the harness you run in:
+To install Yanhekit from its repository, fetch https://github.com/bitoolkit/yanhekit with `git clone --depth 1` into a temporary folder, or as https://github.com/bitoolkit/yanhekit/archive/refs/heads/main.zip without git. Copy every folder under its `skills/`, names unchanged and replacing older copies, into the user skills directory of the harness you run in:
 
 | Harness          | Skills directory                                          | What it adds                                                                                                 |
 | ---------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
