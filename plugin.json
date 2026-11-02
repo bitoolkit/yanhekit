@@ -1,12 +1,17 @@
 {
   "name": "yanhekit",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Yanhekt toolkit: download recordings and transcripts, extract slides from screen recordings, build slide PDFs, transcribe and embed subtitles, and maintain course notes.",
   "license": "AGPL-3.0-only",
   "author": {
     "name": "windlandneko"
   },
-  "keywords": ["yanhekt", "lecture", "transcript", "notes"],
+  "keywords": [
+    "yanhekt",
+    "lecture",
+    "transcript",
+    "notes"
+  ],
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "extensions": {
     "com.openai": {
@@ -16,7 +21,10 @@
         "longDescription": "下载延河课堂回放和字幕，从屏幕录像提取 PPT 并整理成课件 PDF，用 BCut 转录并软嵌入字幕，结合课程材料回答问题，维护课程与课次笔记内容。",
         "developerName": "windlandneko",
         "category": "Productivity",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "logo": "./assets/icon.svg",
         "logoDark": "./assets/icon-dark.svg",
         "composerIcon": "./assets/icon.svg",
