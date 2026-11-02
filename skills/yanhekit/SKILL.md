@@ -132,12 +132,12 @@ Prioritize what is easy to miss: attendance, assignments and deadlines, exam hin
 
 To install Yanhekit from its repository, fetch https://github.com/windlandneko/yanhekit with `git clone --depth 1` into a temporary folder, or as https://github.com/windlandneko/yanhekit/archive/refs/heads/main.zip without git. Copy every folder under its `skills/`, names unchanged and replacing older copies, into the user skills directory of the harness you run in:
 
-| Harness | Skills directory | What it adds |
-| --- | --- | --- |
-| Claude Code | `~/.claude/skills` | `/yhkt-init` and the other commands with argument hints; `allowed-tools` approves the script's commands |
-| Codex | `~/.agents/skills` | `$yhkt-init` or `/skills`; `agents/openai.yaml` gives the display name, starter prompt and invocation policy |
-| DeepSeek Harness | `~/.dsh/skills` | the commands in its skill catalog, taking precedence over `~/.agents/skills` |
-| Another harness | its own user skills directory, or else `~/.agents/skills` | |
+| Harness          | Skills directory                                          | What it adds                                                                                                 |
+| ---------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Claude Code      | `~/.claude/skills`                                        | `/yhkt-init` and the other commands with argument hints; `allowed-tools` approves the script's commands      |
+| Codex            | `~/.agents/skills`                                        | `$yhkt-init` or `/skills`; `agents/openai.yaml` gives the display name, starter prompt and invocation policy |
+| DeepSeek Harness | `~/.dsh/skills`                                           | the commands in its skill catalog, taking precedence over `~/.agents/skills`                                 |
+| Another harness  | its own user skills directory, or else `~/.agents/skills` |                                                                                                              |
 
 Then tell the user to start a new session so that the harness loads the skills.
 

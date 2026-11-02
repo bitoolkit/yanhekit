@@ -9,8 +9,8 @@
   "teacher": "王老师",
   "term": "2026-2027-1",
   "lectures": [
-    {"id": "09月23日第3-5节", "sub_id": "200001", "duration_s": 8100.0},
-    {"id": "10月01日第3-5节", "sub_id": "200002", "dropped": "国庆放假"}
+    { "id": "09月23日第3-5节", "sub_id": "200001", "duration_s": 8100.0 },
+    { "id": "10月01日第3-5节", "sub_id": "200002", "dropped": "国庆放假" }
   ]
 }
 ```
@@ -26,7 +26,10 @@
 `slides/` holds the slides extracted from the screen recording, and `slides/index.json` lists them in time order; each stays on screen until the next one's time:
 
 ```json
-[{"file": "001.jpg", "time_s": 0.0}, {"file": "002.jpg", "time_s": 96.0}]
+[
+  { "file": "001.jpg", "time_s": 0.0 },
+  { "file": "002.jpg", "time_s": 96.0 }
+]
 ```
 
 ## Unfinished downloads
